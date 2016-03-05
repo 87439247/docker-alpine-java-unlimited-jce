@@ -1,0 +1,13 @@
+sudo: required
+
+language: c
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t davidcaste/docker-alpine-java-unlimited-jce 8/jre/
+
+script:
+  - docker run -it --rm davidcaste/docker-alpine-java-unlimited-jce java -version

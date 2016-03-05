@@ -4,11 +4,12 @@
 
 [![](https://badge.imagelayers.io/davidcaste/alpine-java-unlimited-jce:latest.svg)](https://imagelayers.io/?images=davidcaste/alpine-java-unlimited-jce:latest)
 
-Basic [Docker](https://www.docker.com/) image to run [Java](https://www.java.com/) applications.
-This image is based on [AlpineLinux](http://alpinelinux.org/) to keep the size dow, yet smaller images do exist.  
-Includes BASH, since many Java applications like to have convoluted BASH start-up scripts.
+Basic [Docker](https://www.docker.com/) image to run [Java](https://www.java.com/) applications with unlimited JCE patch applied.
 
-This Docker image extends [`anapsix/alpine-java`](https://github.com/anapsix/docker-alpine-java).
+This image is based on [AlpineLinux](http://alpinelinux.org/) to keep the size dow, yet smaller images do exist. Includes BASH, since many Java applications like to have convoluted BASH start-up scripts.
+
+Extends [`anapsix/alpine-java`](https://hub.docker.com/r/anapsix/alpine-java/) Docker image (thanks [anapsix](https://github.com/anapsix)!!).
+
 
 ### Versions
 

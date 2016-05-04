@@ -1,4 +1,4 @@
-# AlpineLinux with a glibc-2.21, Oracle Java jdk7 and unlimited JCE policy patch
+# AlpineLinux with a glibc-2.23-r1, Oracle Java jdk7 and unlimited JCE policy patch
 FROM anapsix/alpine-java:jdk7
 
 MAINTAINER David Castellanos <davidcaste@gmail.com>

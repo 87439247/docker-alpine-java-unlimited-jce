@@ -1,4 +1,4 @@
-# AlpineLinux with a glibc-2.21, Oracle Java %JVM_FLAVOUR% and unlimited JCE policy patch
+# AlpineLinux with a glibc-2.23-r1, Oracle Java %JVM_FLAVOUR% and unlimited JCE policy patch
 FROM anapsix/alpine-java:%JVM_FLAVOUR%
 
 MAINTAINER David Castellanos <davidcaste@gmail.com>
